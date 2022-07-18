@@ -10,6 +10,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Button } from 'react-bootstrap';
 import AboutScreen from './screens/AboutScreen';
+import EducationScreen from './screens/EducationScreen';
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
           <Container>
             <Routes>
               <Route path="/" element={<AboutScreen />} />
+              <Route path="education" element={<EducationScreen />} />
             </Routes>
           </Container>
         </main>

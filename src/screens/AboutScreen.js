@@ -31,7 +31,9 @@ export default function AboutScreen() {
             </ul>
           </span>
           <div className="icons">
-            <img src={Git} alt="GitHub"></img>
+            <a href="https://github.com/DaisNaid?tab=repositories">
+              <img src={Git} alt="GitHub" />
+            </a>
           </div>
         </div>
         <div className="float">

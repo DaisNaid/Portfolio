@@ -78,13 +78,16 @@ header {
   cursor: pointer;
 }
 
-.intro {
+.intro,
+.education {
   display: flex;
   height: 77vh;
   margin-top: 6rem;
 }
 
-.about {
+.about,
+.middlesex,
+.aptech {
   display: flex;
   position: relative;
   flex: 1;
@@ -121,6 +124,28 @@ header {
   margin-top: 10px;
 }
 
+.middlesex > :nth-child(1) {
+  font-weight: bold;
+  font-size: 3rem;
+  color: red;
+}
+
+.middlesex > :nth-child(2) {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.aptech > :nth-child(1) {
+  font-weight: bold;
+  font-size: 3rem;
+  color: red;
+}
+
+.aptech > :nth-child(2) {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
 .icons img {
   width: auto;
   height: 100px;
@@ -147,6 +172,36 @@ header {
   }
 }
 
+@keyframes float-right {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0);
+    transform: translatex(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0);
+    transform: translatex(200px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0);
+    transform: translatex(0px);
+  }
+}
+
+@keyframes float-left {
+  0% {
+    box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.8);
+    transform: translatex(110px);
+  }
+  50% {
+    box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.8);
+    transform: translatex(0px);
+  }
+  100% {
+    box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0);
+    transform: translatex(110px);
+  }
+}
+
 .float {
   margin: 0;
   top: 30%;
@@ -159,6 +214,12 @@ header {
   padding: 0px, 28px, 0px, 0px;
   height: 4.5rem;
   animation: float 6s ease-in-out infinite;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 
 .float > * {
@@ -166,12 +227,16 @@ header {
   z-index: 1;
 }
 
-.float img {
+.float img,
+.education img {
   height: 300px;
+  width: 440px;
 }
 
 .float span {
   box-shadow: 0px 19px 60px 10px red;
+  padding: 10px;
+  background-color: transparent;
   font-size: large;
 }
 
@@ -180,4 +245,37 @@ header {
   top: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.grade {
+  position: absolute;
+  font-size: 3rem;
+  top: 15%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 19px 60px 10px red;
+  padding: 1px;
+}
+
+.year {
+  position: absolute;
+  font-size: 2.2rem;
+  top: 66%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 19px 60px 10px red;
+  padding: 1px;
+}
+
+.mid1 {
+  animation: float-right 6s ease-in-out infinite;
+}
+
+.apt1 {
+  animation: float-left 6s ease-in-out infinite;
+}
+
+.aptech {
+  padding: 0px, 28px, 0px, 0px;
+  height: 4.5rem;
 }
