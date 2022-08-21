@@ -11,6 +11,10 @@ import 'react-toastify/dist/ReactToastify.css';
 import { Button } from 'react-bootstrap';
 import AboutScreen from './screens/AboutScreen';
 import EducationScreen from './screens/EducationScreen';
+import CV from './Ayomide Bamigbade CV.pdf';
+import PortfolioScreen from './screens/PortfolioScreen';
+import ContactScreen from './screens/ContactScreen';
+import StackScreen from './screens/StackScreen';
 
 function App() {
   return (
@@ -30,10 +34,7 @@ function App() {
                 <NavLink to="/education">Education</NavLink>
               </li>
               <li>
-                <NavLink to="/tech">Technical Skills</NavLink>
-              </li>
-              <li>
-                <NavLink to="/program-lang">Programming Languages</NavLink>
+                <NavLink to="/program-stack">Programming Stack</NavLink>
               </li>
               <li>
                 <NavLink to="/portfolio">Portfolio</NavLink>
@@ -42,7 +43,9 @@ function App() {
                 <NavLink to="/contact">Contact</NavLink>
               </li>
             </ul>
-            <Button className="cv">View CV</Button>
+            <a href={CV} target="_blank" rel="noreferrer">
+              <Button className="cv">View CV</Button>
+            </a>
           </div>
         </header>
         <main>
@@ -50,6 +53,9 @@ function App() {
             <Routes>
               <Route path="/" element={<AboutScreen />} />
               <Route path="education" element={<EducationScreen />} />
+              <Route path="portfolio" element={<PortfolioScreen />} />
+              <Route path="contact" element={<ContactScreen />} />
+              <Route path="program-stack" element={<StackScreen />} />
             </Routes>
           </Container>
         </main>

@@ -202,6 +202,17 @@ header {
   }
 }
 
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #ce130e, 0 0 30px #fff, 0 0 40px #fff,
+      0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff,
+      0 0 60px #fff, 0 0 70px #fff, 0 0 80px #fff;
+  }
+}
+
 .float {
   margin: 0;
   top: 30%;
@@ -278,4 +289,233 @@ header {
 .aptech {
   padding: 0px, 28px, 0px, 0px;
   height: 4.5rem;
+}
+
+.experience {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  margin-bottom: 8rem;
+}
+
+.achievement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: large;
+}
+
+.circle {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 100%;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.circle::before {
+  border-radius: 100%;
+  content: '';
+  background-image: linear-gradient(to bottom, red 0%, black 100%);
+  top: -8px;
+  left: -8px;
+  bottom: -8px;
+  right: -8px;
+  position: absolute;
+  z-index: -8;
+}
+
+.number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.portfolio > :nth-child(1) {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.portfolio .swiper {
+  overflow: visible !important;
+}
+
+.portfolio-slider {
+  margin-top: 3rem;
+  width: 50%;
+}
+
+.portfolio-slider .swiper-slide {
+  width: 20rem;
+}
+
+.portfolio img {
+  width: auto;
+  height: 600px;
+  filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
+  border-radius: 19px;
+}
+
+.contact {
+  display: flex;
+  height: 10vh;
+  margin-top: 5rem;
+  justify-content: center;
+  font-size: 30px;
+}
+.contact-icons {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+.contact-icons a {
+  text-decoration: none;
+  color: red;
+  font-size: 20px;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex: 1;
+}
+
+.contact-form > form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.contact-form .mb-3 {
+  width: 12rem;
+  height: 2rem;
+  padding: 0.3rem;
+  border: 2px solid red;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+}
+
+textarea {
+  width: 12rem;
+  height: 4rem !important;
+  padding: 0.3rem;
+  border: 2px solid red;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+}
+
+.contact-button {
+  font-size: 15px;
+}
+
+.stack-intro {
+  padding: 0 3rem 0 3rem;
+  display: flex;
+  margin-top: 4rem;
+  height: 40vh;
+}
+
+.stack-intro > span {
+  font-size: large;
+}
+
+.stack {
+  position: relative;
+}
+
+.outerCircle {
+  left: 9rem;
+  position: relative;
+  width: 30rem;
+  height: 30rem;
+  border-radius: 100%;
+  box-shadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+  top: 2rem;
+  background-color: white;
+}
+
+.mainCircle {
+  left: 1rem;
+  position: relative;
+  width: 28rem;
+  height: 28rem;
+  border-radius: 100%;
+  box-shadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+  top: 1rem;
+  background-color: #16151a;
+}
+
+.mainCircle > * {
+  position: absolute;
+}
+
+.mainCircle > :nth-child(1) {
+  top: -3rem;
+  left: 10rem;
+}
+.mainCircle > :nth-child(2) {
+  top: 9rem;
+  left: 24rem;
+}
+.mainCircle > :nth-child(3) {
+  top: 23rem;
+  left: 10rem;
+}
+.mainCircle > :nth-child(4) {
+  top: 9rem;
+  left: -6rem;
+}
+
+.mainCircle > :nth-child(5) {
+  font-size: 55px;
+  font-weight: bold;
+  top: 11rem;
+  left: 9rem;
+  color: #ce130e;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 3s ease-in-out infinite alternate;
+}
+
+.secCircle {
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  border-radius: 100%;
+  border: 5px solid #ebebeb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  box-shadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+  background-color: white;
+}
+
+.secCircle > img {
+  transform: scale(0.5);
+}
+
+.mainCircle > :nth-child(2) > img {
+  transform: scale(0.45);
+  margin-left: 10px;
+}
+
+.mainCircle > :nth-child(3) > img {
+  transform: scale(0.1);
 }
