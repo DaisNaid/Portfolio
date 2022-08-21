@@ -4,7 +4,6 @@ import MDB from '../images/MDB.png';
 import ejs from '../images/ejs.png';
 import NJS from '../images/NJS.png';
 import RJS from '../images/RJS.png';
-import Background from '../images/362087.jpg';
 
 export default function StackScreen() {
   return (
