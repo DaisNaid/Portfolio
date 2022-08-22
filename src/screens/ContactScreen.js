@@ -1,14 +1,14 @@
 import React from 'react';
 import { Button, Form } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
-import emailjs from '@emailjs/browser';
+//import emailjs from '@emailjs/browser';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBell } from '@fortawesome/free-solid-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { useRef } from 'react';
+//import { useRef } from 'react';
 
-const Contact = () => {
+/*const Contact = () => {
   const form = useRef();
   const submitHandler = (e) => {
     e.preventDefault();
@@ -28,7 +28,7 @@ const Contact = () => {
         }
       );
   };
-};
+};*/
 
 const bell = <FontAwesomeIcon icon={faBell} />;
 const phone = <FontAwesomeIcon icon={faPhone} />;
@@ -43,6 +43,7 @@ export default function ContactScreen() {
       </div>
       <div className="contact">
         <span>Get In Touch</span>
+        {bell}
       </div>
       <div className="contact-form">
         <Form className="rounded p-4 p-sm3">
