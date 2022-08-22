@@ -1,5 +1,6 @@
 import {
-  BrowserRouter as Route,
+  BrowserRouter as Router,
+  Route,
   Routes,
   HashRouter,
   NavLink,
