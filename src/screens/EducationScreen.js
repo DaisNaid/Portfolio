@@ -1,10 +1,8 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Graduate from '../images/SeekPng.com_convocation-cap-png_2699239.png';
-import confetti from 'https://cdn.skypack.dev/canvas-confetti';
 
 export default function EducationScreen() {
-  confetti();
   return (
     <Container>
       <div className="education">

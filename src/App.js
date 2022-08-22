@@ -7,14 +7,13 @@ import {
 } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import { ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 import { Button } from 'react-bootstrap';
-import AboutScreen from './screens/AboutScreen';
-import EducationScreen from './screens/EducationScreen';
-import CV from './Ayomide Bamigbade CV.pdf';
-import PortfolioScreen from './screens/PortfolioScreen';
-import ContactScreen from './screens/ContactScreen';
-import StackScreen from './screens/StackScreen';
+import AboutScreen from './screens/AboutScreen.js';
+import EducationScreen from './screens/EducationScreen.js';
+import CV from './docs/Ayomide Bamigbade CV.pdf';
+import PortfolioScreen from './screens/PortfolioScreen.js';
+import ContactScreen from './screens/ContactScreen.js';
+import StackScreen from './screens/StackScreen.js';
 
 function App() {
   return (
