@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.24f5a977.css",
-    "main.js": "/Portfolio/static/js/main.04b920ef.js",
+    "main.js": "/Portfolio/static/js/main.b5329326.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/HP.png": "/Portfolio/static/media/HP.77d16b60efdb4a57b517.png",
     "static/media/EP.png": "/Portfolio/static/media/EP.c04cc4888be6851676f4.png",
@@ -11,7 +11,7 @@
     "static/media/Home1.png": "/Portfolio/static/media/Home1.bcd29bf705b74db90c89.png",
     "static/media/Home3.png": "/Portfolio/static/media/Home3.0b03235bec2fd0eee796.png",
     "static/media/Home2.png": "/Portfolio/static/media/Home2.8ae685627e00958c42fc.png",
-    "static/media/Ayomide Bamigbade CV.pdf": "/Portfolio/static/media/Ayomide Bamigbade CV.2e0221f8af463d57876b.pdf",
+    "static/media/Ayomide Bamigbade CV.pdf": "/Portfolio/static/media/Ayomide Bamigbade CV.28610b75c9cd9bc791cc.pdf",
     "static/media/Home4.png": "/Portfolio/static/media/Home4.53bc373504944c2bb4e2.png",
     "static/media/362087.jpg": "/Portfolio/static/media/362087.08fb1995a11c0fc908a8.jpg",
     "static/media/PlaceOrder.png": "/Portfolio/static/media/PlaceOrder.36cfe2853dd55dbb6ece.png",
@@ -38,11 +38,11 @@
     "static/media/MDB.png": "/Portfolio/static/media/MDB.34a39af57b19ce5bb12e.png",
     "index.html": "/Portfolio/index.html",
     "main.24f5a977.css.map": "/Portfolio/static/css/main.24f5a977.css.map",
-    "main.04b920ef.js.map": "/Portfolio/static/js/main.04b920ef.js.map",
+    "main.b5329326.js.map": "/Portfolio/static/js/main.b5329326.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.24f5a977.css",
-    "static/js/main.04b920ef.js"
+    "static/js/main.b5329326.js"
   ]
 }
