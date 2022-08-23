@@ -255,6 +255,19 @@ header {
   font-size: large;
 }
 
+.float > :nth-child(3) {
+  top: -4%;
+  left: 68%;
+}
+.float > :nth-child(4) {
+  top: 60%;
+  right: 77%;
+}
+.float > :nth-child(5) {
+  top: 400%;
+  right: 60%;
+}
+
 .title {
   position: absolute;
   top: 100%;
@@ -654,7 +667,29 @@ textarea {
     top: -10rem;
     left: -1rem;
   }
+  .float {
+    top: -7%;
+    animation: float 6s ease-in-out infinite;
+  }
   .float > * {
     transform: scale(0.5);
+    top: -20rem;
+    margin-top: 3rem;
+  }
+  .title {
+    font-size: medium;
+    top: -13rem;
+    left: 40%;
+    transform: translate(-30%, -20%);
+  }
+  .float > :nth-child(3) {
+    top: -18rem;
+  }
+  .float > :nth-child(4) {
+    top: -12rem;
+  }
+  .float > :nth-child(5) {
+    top: -7rem;
+    right: 40%;
   }
 }

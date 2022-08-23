@@ -39,13 +39,13 @@ export default function AboutScreen() {
         <div className="float">
           <img src={Graduate} alt="Graduate Logo" />
           <h3 className="title">Graduate Level Titles</h3>
-          <span style={{ top: '-4%', left: '68%' }}>
+          <span>
             Data <br /> Analyst
           </span>
-          <span style={{ top: '60%', right: '77%' }}>
+          <span>
             UI/UX <br /> Designer
           </span>
-          <span style={{ top: '400%', right: '60%' }}>
+          <span>
             Project <br /> Manager
           </span>
         </div>
