@@ -7,7 +7,7 @@ import RJS from '../images/RJS.png';
 
 export default function StackScreen() {
   return (
-    <Container>
+    <Container className="site-container">
       <div className="stack-intro">
         <span>
           As a Fullstack developer, I work with the MERN stack consisting of

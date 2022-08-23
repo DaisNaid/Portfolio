@@ -4,7 +4,7 @@ import Git from '../images/Git-Icon-1788C.png';
 import Graduate from '../images/SeekPng.com_convocation-cap-png_2699239.png';
 export default function AboutScreen() {
   return (
-    <Container>
+    <Container className="site-container">
       <div className="intro">
         <div className="about">
           <span>Hi! I'm</span>

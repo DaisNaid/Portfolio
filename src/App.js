@@ -14,7 +14,7 @@ import CV from './docs/Ayomide Bamigbade CV.pdf';
 import PortfolioScreen from './screens/PortfolioScreen.js';
 import ContactScreen from './screens/ContactScreen.js';
 import StackScreen from './screens/StackScreen.js';
-import Wave from './images/Wave.jpg';
+import Wave2 from './images/Wave2.jpg';
 
 function App() {
   return (
@@ -49,7 +49,7 @@ function App() {
           </div>
         </header>
         <main>
-          <Container>
+          <Container className="site-container">
             <Routes>
               <Route path="/" element={<AboutScreen />} />
               <Route path="education" element={<EducationScreen />} />
@@ -59,6 +59,16 @@ function App() {
             </Routes>
           </Container>
         </main>
+        <footer className="foot">
+          <img
+            src={Wave2}
+            alt="Footer"
+            style={{ width: '100%', height: '50px' }}
+          />
+          <div className="footer-text">
+            <span className="copyright">&copy; Copyright 2022 - Ayo</span>
+          </div>
+        </footer>
       </div>
     </HashRouter>
   );

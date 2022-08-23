@@ -43,7 +43,7 @@ export default function ContactScreen() {
   };
 
   return (
-    <Container>
+    <Container className="site-container">
       <div className="contact-icons">
         <a href="tel: +447903741926">{phone} Call Me</a>
         <a href="mailto: iamtryve@gmail.com">{envelope} Email Me</a>

@@ -25,6 +25,11 @@ import LogIn from '../images/OAS/LogIn.png';
 import MyClasses from '../images/OAS/MyClasses.png';
 import MyCourses from '../images/OAS/MyCourses.png';
 import OAS_Dashboard from '../images/OAS/OAS_Dashboard.png';
+import CP from '../images/Port/CP.png';
+import EP from '../images/Port/EP.png';
+import HP from '../images/Port/HP.png';
+import PP from '../images/Port/PP.png';
+import SP from '../images/Port/SP.png';
 
 export default function PortfolioScreen() {
   const NI_images = [
@@ -113,10 +118,31 @@ export default function PortfolioScreen() {
     },
   ];
 
-  const Port_Images = [];
+  const Port_Images = [
+    {
+      original: PP,
+      originalHeight: '600px',
+    },
+    {
+      original: CP,
+      originalHeight: '600px',
+    },
+    {
+      original: HP,
+      originalHeight: '600px',
+    },
+    {
+      original: EP,
+      originalHeight: '600px',
+    },
+    {
+      original: SP,
+      originalHeight: '600px',
+    },
+  ];
 
   return (
-    <Container>
+    <Container className="site-container">
       <div className="experience">
         <div className="achievement">
           <div className="circle">
@@ -178,8 +204,8 @@ export default function PortfolioScreen() {
           <div className="Port-text">
             <span>Portfolio Website</span>
             <span>
-              An attrative yet simple looking website to show off my skills as a
-              web developer with online CV viewing
+              An attractive yet simple looking website to show off my skills as
+              a web developer with online CV viewing using React and CSS
             </span>
           </div>
           <ImageGallery
@@ -188,6 +214,7 @@ export default function PortfolioScreen() {
             autoPlay={true}
           />
         </div>
+        <span>All Projects completed and owned by Yours Truly</span>
       </div>
     </Container>
   );

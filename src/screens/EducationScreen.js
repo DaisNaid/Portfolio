@@ -5,7 +5,7 @@ import Confetti from 'react-confetti';
 
 export default function EducationScreen() {
   return (
-    <Container>
+    <Container className="site-container">
       <Confetti opacity={0.55} />
       <div className="education">
         <div className="middlesex">
