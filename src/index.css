@@ -675,6 +675,7 @@ textarea {
     transform: scale(0.5);
     top: -20rem;
     margin-top: 3rem;
+    margin-bottom: 10rem;
   }
   .title {
     font-size: medium;
