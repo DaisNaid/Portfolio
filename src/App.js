@@ -14,6 +14,7 @@ import CV from './docs/Ayomide Bamigbade CV.pdf';
 import PortfolioScreen from './screens/PortfolioScreen.js';
 import ContactScreen from './screens/ContactScreen.js';
 import StackScreen from './screens/StackScreen.js';
+import Wave from './images/Wave.jpg';
 
 function App() {
   return (

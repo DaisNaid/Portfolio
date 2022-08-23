@@ -1,10 +1,12 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Graduate from '../images/SeekPng.com_convocation-cap-png_2699239.png';
+import Confetti from 'react-confetti';
 
 export default function EducationScreen() {
   return (
     <Container>
+      <Confetti opacity={0.55} />
       <div className="education">
         <div className="middlesex">
           <span>Middlesex University, London</span>

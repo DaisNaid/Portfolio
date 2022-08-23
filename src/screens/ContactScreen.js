@@ -50,7 +50,10 @@ export default function ContactScreen() {
       </div>
       <div className="contact">
         <span>
-          Get In Touch <span style={{ color: 'red' }}>{bell}</span>
+          Get In Touch{' '}
+          <span className="bell" style={{ color: 'red' }}>
+            {bell}
+          </span>
         </span>
       </div>
       <div className="contact-form">
