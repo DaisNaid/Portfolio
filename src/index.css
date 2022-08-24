@@ -720,9 +720,6 @@ textarea {
     top: -7rem;
     right: 40%;
   }
-  .foot {
-    margin-top: 9rem;
-  }
 
   .hamburger {
     margin-right: 90px;
@@ -808,7 +805,7 @@ textarea {
     font-size: 15px;
   }
   .foot {
-    margin-top: 2rem;
+    margin-top: 6rem;
   }
   .image-gallery {
     transform: scale(1.3);
