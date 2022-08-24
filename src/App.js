@@ -21,10 +21,16 @@ function App() {
     const hamburger = document.querySelector('.hamburger');
     const hamburger_icon = hamburger.querySelector('span');
     const mobile_menu = document.querySelector('.mobile-menu');
-    hamburger.addEventListener('click', () => {
-      hamburger_icon.innerText =
-        hamburger_icon.innerText === 'menu' ? 'close' : 'menu';
-      mobile_menu.classList.toggle('is-open');
+    const multi = mobile_menu.querySelectorAll('li');
+    hamburger_icon.innerText =
+      hamburger_icon.innerText === 'menu' ? 'close' : 'menu';
+    mobile_menu.classList.toggle('is-open');
+    multi.forEach((single) => {
+      single.addEventListener('click', () => {
+        hamburger_icon.innerText =
+          hamburger_icon.innerText === 'close' ? 'menu' : 'close';
+        mobile_menu.classList.toggle('is-open');
+      });
     });
   };
   return (

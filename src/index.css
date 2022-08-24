@@ -753,4 +753,9 @@ textarea {
     color: red;
     background-color: white;
   }
+  .contact-icons,
+  .contact,
+  .contact-form {
+    transform: translateX(50px);
+  }
 }
