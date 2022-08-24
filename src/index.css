@@ -781,4 +781,33 @@ textarea {
   .contact-form {
     transform: translateX(50px);
   }
+  .experience {
+    transform: scale(0.8) translateX(50px);
+  }
+  .portfolio {
+    transform: translateY(0) translateX(50px);
+  }
+  .figma > :nth-child(2):hover {
+    margin-right: 30px;
+    margin-bottom: 100px;
+  }
+  .figma > :nth-child(3):hover {
+    margin-top: 100px;
+    margin-left: -6px;
+    margin-bottom: 100px;
+  }
+  .NI-text,
+  .OAS-text,
+  .Port-text {
+    margin-top: 3rem;
+  }
+  .Port {
+    margin-bottom: 7rem;
+  }
+  .portfolio > :nth-child(6) {
+    font-size: 15px;
+  }
+  .foot {
+    margin-top: 2rem;
+  }
 }
