@@ -34,7 +34,7 @@ export default function ContactScreen() {
           setReceived(true);
           setTimeout(() => {
             navigate('/');
-          }, 3000);
+          }, 1500);
         },
         (error) => {
           console.log(error.text);

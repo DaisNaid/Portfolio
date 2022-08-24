@@ -224,6 +224,29 @@ header {
   }
 }
 
+@keyframes ring {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(45deg);
+  }
+  50% {
+    transform: rotate(-45deg);
+  }
+  75% {
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+.contact span > :nth-child(1) {
+  animation: ring 2s ease 3;
+  animation-delay: 3s;
+}
+
 .float {
   margin: 0;
   top: 30%;
