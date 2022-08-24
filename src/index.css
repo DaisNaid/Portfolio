@@ -59,6 +59,13 @@ header {
   gap: 2rem;
 }
 
+.hamburger {
+  display: none;
+}
+.mobile-menu {
+  display: none;
+}
+
 .menu-list a {
   color: azure;
   text-decoration: none;
@@ -643,8 +650,11 @@ textarea {
 }
 
 @media screen and (max-width: 600px) {
+  body {
+    padding-top: 40px;
+  }
   header {
-    padding-left: 50px;
+    padding-left: 30px;
     padding-right: 20px;
   }
   .menu-list {
@@ -654,11 +664,8 @@ textarea {
   .education {
     flex-direction: column;
   }
-  .cv {
-    margin-left: 70px;
-  }
   .site-container {
-    padding-left: 20px;
+    padding-left: 5px;
   }
   .about,
   .middlesex,
@@ -694,5 +701,56 @@ textarea {
   }
   .foot {
     margin-top: 9rem;
+  }
+
+  .hamburger {
+    margin-right: 90px;
+    display: block;
+    user-select: none;
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .hamburger span {
+    color: white;
+    font-size: 2rem;
+  }
+
+  .mobile-menu {
+    display: block;
+    position: fixed;
+    top: 15%;
+    right: 0;
+    width: 100%;
+    height: 60%;
+    padding-top: 6rem;
+    list-style: none;
+    z-index: 98;
+    opacity: 0;
+    background-color: black;
+    transform: translateY(100%);
+    transition: 0.3s;
+  }
+  .mobile-menu.is-open {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .mobile-menu a {
+    display: block;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+    transition: 0.3s;
+  }
+  .mobile-menu a:hover {
+    color: red;
+    background-color: white;
   }
 }
