@@ -29,6 +29,7 @@ export default function EducationScreen() {
           </div>
         </div>
       </div>
+      <div className="spacer"></div>
     </Container>
   );
 }

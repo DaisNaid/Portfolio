@@ -208,11 +208,7 @@ export default function PortfolioScreen() {
               a web developer with online CV viewing using React and CSS
             </span>
           </div>
-          <ImageGallery
-            items={Port_Images}
-            showFullscreenButton={false}
-            autoPlay={true}
-          />
+          <ImageGallery items={Port_Images} autoPlay={true} />
         </div>
         <span>All Projects completed and owned by Yours Truly</span>
       </div>
