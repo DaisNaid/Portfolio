@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.60929e1f.css",
-    "main.js": "/Portfolio/static/js/main.e085a7e9.js",
+    "main.css": "/Portfolio/static/css/main.f6bec59e.css",
+    "main.js": "/Portfolio/static/js/main.490c90b0.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/HP.png": "/Portfolio/static/media/HP.77d16b60efdb4a57b517.png",
     "static/media/EP.png": "/Portfolio/static/media/EP.c04cc4888be6851676f4.png",
@@ -10,22 +10,30 @@
     "static/media/PP.png": "/Portfolio/static/media/PP.b7b1f8dd6c920dc27370.png",
     "static/media/Home1.png": "/Portfolio/static/media/Home1.bcd29bf705b74db90c89.png",
     "static/media/Home3.png": "/Portfolio/static/media/Home3.0b03235bec2fd0eee796.png",
+    "static/media/Home.png": "/Portfolio/static/media/Home.9248d5dcc5f2676eb7bb.png",
     "static/media/Home2.png": "/Portfolio/static/media/Home2.8ae685627e00958c42fc.png",
     "static/media/Ayomide Bamigbade CV.pdf": "/Portfolio/static/media/Ayomide Bamigbade CV.28610b75c9cd9bc791cc.pdf",
     "static/media/Home4.png": "/Portfolio/static/media/Home4.53bc373504944c2bb4e2.png",
     "static/media/362087.jpg": "/Portfolio/static/media/362087.08fb1995a11c0fc908a8.jpg",
+    "static/media/DH.png": "/Portfolio/static/media/DH.76295543b6af813bf439.png",
+    "static/media/MainProfile.png": "/Portfolio/static/media/MainProfile.f3ce10425a7b6b6140dc.png",
+    "static/media/MP2.png": "/Portfolio/static/media/MP2.b3f4f780a2beef7fc9b9.png",
     "static/media/PlaceOrder.png": "/Portfolio/static/media/PlaceOrder.36cfe2853dd55dbb6ece.png",
     "static/media/Order.png": "/Portfolio/static/media/Order.2dfdbe081fbce30b082b.png",
     "static/media/Wave2.jpg": "/Portfolio/static/media/Wave2.33a8365333f4c25c03a3.jpg",
     "static/media/Payment.png": "/Portfolio/static/media/Payment.800e9fab2b13461dd51a.png",
     "static/media/SpotifyHome.jpeg": "/Portfolio/static/media/SpotifyHome.91d3eceef378017f77a4.jpeg",
     "static/media/EmptyCart.png": "/Portfolio/static/media/EmptyCart.92f79182cc3e29182488.png",
+    "static/media/Profile.png": "/Portfolio/static/media/Profile.b7bd85733bdfb508c41e.png",
     "static/media/NI_Dashboard.png": "/Portfolio/static/media/NI_Dashboard.f83150f4f345c14d30b6.png",
+    "static/media/Splash2.png": "/Portfolio/static/media/Splash2.c451702c906abcb41370.png",
     "static/media/SignIn.png": "/Portfolio/static/media/SignIn.88fe4187f8a61d2a7d62.png",
     "static/media/Shipping.png": "/Portfolio/static/media/Shipping.2ffead90c2ef4b717bd3.png",
+    "static/media/Splash3.png": "/Portfolio/static/media/Splash3.a23eff42c3ee5d92ed91.png",
     "static/media/Courses.png": "/Portfolio/static/media/Courses.707c3bfb802cbc49d3a0.png",
     "static/media/SpotifyOne.jpeg": "/Portfolio/static/media/SpotifyOne.07f1a73e0e63c97953f6.jpeg",
     "static/media/RJS.png": "/Portfolio/static/media/RJS.91a9a5298ee9689fdd55.png",
+    "static/media/Splash.png": "/Portfolio/static/media/Splash.e77ce5ecc97390b92478.png",
     "static/media/OAS_Dashboard.png": "/Portfolio/static/media/OAS_Dashboard.40c83cdbb2aa53f59571.png",
     "static/media/MyClasses.png": "/Portfolio/static/media/MyClasses.3eaff6f2416efd1350d8.png",
     "static/media/Attendance.png": "/Portfolio/static/media/Attendance.19c48e1dd3c14e9d8fac.png",
@@ -37,12 +45,12 @@
     "static/media/NJS.png": "/Portfolio/static/media/NJS.a4a607f9dc7c59a9ca5d.png",
     "static/media/MDB.png": "/Portfolio/static/media/MDB.34a39af57b19ce5bb12e.png",
     "index.html": "/Portfolio/index.html",
-    "main.60929e1f.css.map": "/Portfolio/static/css/main.60929e1f.css.map",
-    "main.e085a7e9.js.map": "/Portfolio/static/js/main.e085a7e9.js.map",
+    "main.f6bec59e.css.map": "/Portfolio/static/css/main.f6bec59e.css.map",
+    "main.490c90b0.js.map": "/Portfolio/static/js/main.490c90b0.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.60929e1f.css",
-    "static/js/main.e085a7e9.js"
+    "static/css/main.f6bec59e.css",
+    "static/js/main.490c90b0.js"
   ]
 }
