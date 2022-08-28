@@ -676,6 +676,10 @@ textarea {
   margin: 100px;
 }
 
+.Rapid .image-gallery:hover {
+  margin: 120px;
+}
+
 .foot {
   display: flex;
   align-items: center;
