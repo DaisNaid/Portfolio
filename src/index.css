@@ -553,6 +553,26 @@ textarea {
   align-items: center;
   gap: 1rem;
   margin-bottom: 4rem;
+  margin-top: 6rem;
+}
+
+.Rapid-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+
+.Rapid-text > :nth-child(1) {
+  color: red;
+  font-size: x-large;
+}
+
+.Rapid > :nth-child(2) {
+  height: 600px;
+  margin-right: 5px;
+  transition: transform 0.2s;
 }
 
 .figma-text > :nth-child(1) {
@@ -807,6 +827,11 @@ textarea {
   .foot {
     margin-top: 6rem;
   }
+
+  .Rapid .image-gallery {
+    transform: scale(1);
+  }
+
   .image-gallery {
     transform: scale(1.3);
   }

@@ -30,6 +30,14 @@ import EP from '../images/Port/EP.png';
 import HP from '../images/Port/HP.png';
 import PP from '../images/Port/PP.png';
 import SP from '../images/Port/SP.png';
+import DH from '../images/Rapid/DH.png';
+import Home from '../images/Rapid/Home.png';
+import MainProfile from '../images/Rapid/MainProfile.png';
+import MP2 from '../images/Rapid/MP2.png';
+import Profile from '../images/Rapid/Profile.png';
+import Splash from '../images/Rapid/Splash.png';
+import Splash2 from '../images/Rapid/Splash2.png';
+import Splash3 from '../images/Rapid/Splash3.png';
 
 export default function PortfolioScreen() {
   const NI_images = [
@@ -141,6 +149,41 @@ export default function PortfolioScreen() {
     },
   ];
 
+  const Rapid_Images = [
+    {
+      original: Splash,
+      originalHeight: '600px',
+    },
+    {
+      original: Splash2,
+      originalHeight: '600px',
+    },
+    {
+      original: Splash3,
+      originalHeight: '600px',
+    },
+    {
+      original: DH,
+      originalHeight: '600px',
+    },
+    {
+      original: Home,
+      originalHeight: '600px',
+    },
+    {
+      original: MainProfile,
+      originalHeight: '600px',
+    },
+    {
+      original: MP2,
+      originalHeight: '600px',
+    },
+    {
+      original: Profile,
+      originalHeight: '600px',
+    },
+  ];
+
   return (
     <Container className="site-container">
       <div className="experience">
@@ -153,6 +196,20 @@ export default function PortfolioScreen() {
       </div>
       <div className="portfolio">
         <span>Recent Projects</span>
+        <div className="Rapid">
+          <div className="Rapid-text">
+            <span>UI/UX Design</span>
+            <span>
+              A proposed UI design of a delivery system called RapidMove based
+              on results from a UX research
+            </span>
+          </div>
+          <ImageGallery
+            items={Rapid_Images}
+            showFullscreenButton={false}
+            autoPlay={true}
+          />
+        </div>
         <div className="figma">
           <div className="figma-text">
             <span>UI Design</span>
