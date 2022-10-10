@@ -21,17 +21,18 @@ function App() {
     const hamburger = document.querySelector('.hamburger');
     const hamburger_icon = hamburger.querySelector('span');
     const mobile_menu = document.querySelector('.mobile-menu');
-    const multi = mobile_menu.querySelectorAll('li');
     hamburger_icon.innerText =
       hamburger_icon.innerText === 'menu' ? 'close' : 'menu';
     mobile_menu.classList.toggle('is-open');
-    multi.forEach((single) => {
-      single.addEventListener('click', () => {
-        hamburger_icon.innerText =
-          hamburger_icon.innerText === 'close' ? 'menu' : 'close';
-        mobile_menu.classList.toggle('is-open');
-      });
-    });
+  };
+
+  const revert = () => {
+    const hamburger = document.querySelector('.hamburger');
+    const hamburger_icon = hamburger.querySelector('span');
+    const mobile_menu = document.querySelector('.mobile-menu');
+    hamburger_icon.innerText =
+      hamburger_icon.innerText === 'menu' ? 'close' : 'menu';
+    mobile_menu.classList.toggle('is-open');
   };
 
   return (
@@ -44,19 +45,16 @@ function App() {
           </div>
           <div className="menu">
             <ul className="menu-list">
-              <li>
+              <li onClick={revert}>
                 <NavLink to="/">Home</NavLink>
               </li>
-              <li>
+              <li onClick={revert}>
                 <NavLink to="/education">Education</NavLink>
               </li>
-              <li>
-                <NavLink to="/program-stack">Programming Stack</NavLink>
-              </li>
-              <li>
+              <li onClick={revert}>
                 <NavLink to="/portfolio">Portfolio</NavLink>
               </li>
-              <li>
+              <li onClick={revert}>
                 <NavLink to="/contact">Contact</NavLink>
               </li>
             </ul>
@@ -67,19 +65,16 @@ function App() {
               <Button className="cv">View CV</Button>
             </a>
             <ul className="mobile-menu">
-              <li>
+              <li onClick={revert}>
                 <NavLink to="/">Home</NavLink>
               </li>
-              <li>
+              <li onClick={revert}>
                 <NavLink to="/education">Education</NavLink>
               </li>
-              <li>
-                <NavLink to="/program-stack">Programming Stack</NavLink>
-              </li>
-              <li>
+              <li onClick={revert}>
                 <NavLink to="/portfolio">Portfolio</NavLink>
               </li>
-              <li>
+              <li onClick={revert}>
                 <NavLink to="/contact">Contact</NavLink>
               </li>
             </ul>
