@@ -20,7 +20,8 @@ export default function AboutScreen() {
             </p>
             <ul>
               <li>
-                Web Development - React.js, Node.js, Express.js, HTML, CSS
+                Web Development - React.js, Node.js, Express.js, HTML, CSS,
+                Tailwind CSS
               </li>
               <li>Software Development - Java, C#, C++, C</li>
               <li>Cloud Computing - SaaS, AWS, Firebase</li>
